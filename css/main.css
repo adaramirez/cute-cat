@@ -32,4 +32,22 @@ body,html {
 }
 
 /*-----CONDITIONS FOR DIFFERENT SCREEN SIZES---------*/
-@media screen and (max-width:)
+@media screen and (max-width:1024px){
+    .background{
+        background-image: url(../assets/images/Copia\ de\ dawn.png);
+    }
+
+    .cute-kitty{
+        background-image: url(../assets/images/Copia\ de\ kitten-large.png);
+    }
+}
+
+@media screen and (max-width:768px){
+    .background{
+        background-image: url(../assets/images/Copia\ de\ night.jpg);
+    }
+
+    .cute-kitty{
+        background-image: url(../assets/images/Copia\ de\ kitten-small.png);
+    }
+}
