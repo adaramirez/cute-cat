@@ -1,0 +1,35 @@
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+/*-------BACKGROUND------*/
+.background{
+    /*The image used*/
+    background-image: url(../assets/images/Copia\ de\ sunny-day.jpg);
+    
+    /*Full height*/
+    height:100%;
+
+    /*Center and scale the image nicely*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Position that helps to mantain the image on the bottom*/
+    position: relative;
+}
+
+/*-------CAT-------*/
+.cute-kitty{
+    background-image: url(../assets/images/Copia\ de\ kitten-medium.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    bottom: 0%;
+}
+
+/*-----CONDITIONS FOR DIFFERENT SCREEN SIZES---------*/
+@media screen and (max-width:)
